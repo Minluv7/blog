@@ -9,10 +9,12 @@
     class="w-full max-w-sm h-auto object-cover"
   />
 </div>
-
-<h2 class="text-center text-2xl md:text-3xl pt-4 font-semibold text-[#013A63] uppercase max-w-xl">
+<div class="justify-items-center">
+<h2 class="text-center md:text-3xl pt-4 font-semibold uppercase">
     Beyaz tavşanı takip et; o seni, varman gereken yere götürür.
   </h2>
+</div>
+
   
   </main>
 
