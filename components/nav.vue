@@ -1,6 +1,6 @@
 <template>
-  <header class="shadow-lg z-50 fixed flex w-full bg-white">
-    <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+  <header class="sticky top-0 bg-white shadow-lg z-50">
+      <div class="container mx-auto px-4 py-4 flex items-center justify-between">
       <!-- Logo -->
       <h1 class="text-[#013A63] font-bold uppercase text-2xl z-50">
         <NuxtLink to="/">Epiphany</NuxtLink>
@@ -24,10 +24,8 @@
     :class="menuOpen ? '-rotate-45 -translate-y-2' : ''"
   ></div>
 </div>
-
-
       <!-- Navigatie links (desktop) -->
-      <nav class="hidden md:flex fixed flex">
+      <nav class="hidden md:flex flex">
         <ul class="flex items-center text-[#013A63] gap-12">
           <li><NuxtLink to="/" exact-active-class="underline font-bold">Home</NuxtLink></li>
           <li><NuxtLink to="/about" exact-active-class="underline font-bold">About</NuxtLink></li>

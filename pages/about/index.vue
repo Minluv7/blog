@@ -1,6 +1,6 @@
 <template>
     <div class="space">
-       <Nav />
+        <Nav />
     </div>
 </template>
 
